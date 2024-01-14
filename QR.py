@@ -5,4 +5,4 @@ data=input("Enter Your Link: ")
 num=input("Save As: ")
 
 img=qr.make(data)
-img.save(f"CreatQR_{num}.png")
+img.save(f"{num} CreatQR.png")
