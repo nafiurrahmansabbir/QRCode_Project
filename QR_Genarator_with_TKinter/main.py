@@ -60,6 +60,8 @@ class QRCodeGeneratorApp:
 def main():
     root = tk.Tk()
     app = QRCodeGeneratorApp(root)
+    root.geometry("500x500")
+    root.minsize(200,200)
     root.mainloop()
 
 if __name__ == "__main__":
